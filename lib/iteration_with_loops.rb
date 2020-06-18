@@ -1,4 +1,4 @@
-#require 'pry'
+require 'pry'
 def find_min_in_nested_arrays(src)
   # src will be an array of arrays of integers
   # Produce a new Array that contains the smallest number of each of the nested arrays
@@ -11,7 +11,7 @@ def find_min_in_nested_arrays(src)
         if src[row_index][element_index] < min_temp
           min_temp =src[row_index][element_index]
         array_of_daily_temperatures << min_temp
-    #  binding.pry
+    binding.pry
         end
       element_index += 1
     end

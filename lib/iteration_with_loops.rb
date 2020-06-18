@@ -10,8 +10,9 @@ def find_min_in_nested_arrays(src)
       while element_index < src[row_index].count do
         if src[row_index][element_index] < min_temp
           min_temp =src[row_index][element_index]
+          if min_temp<=min_temp
         array_of_daily_temperatures << min_temp
-    binding.pry
+   binding.pry
         end
       element_index += 1
     end

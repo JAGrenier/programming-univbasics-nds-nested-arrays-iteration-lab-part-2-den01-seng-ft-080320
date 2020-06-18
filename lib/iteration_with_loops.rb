@@ -14,6 +14,7 @@ def find_min_in_nested_arrays(src)
         array_of_daily_temperatures << min_temp
    binding.pry
         end
+      end
       element_index += 1
     end
     row_index += 1
